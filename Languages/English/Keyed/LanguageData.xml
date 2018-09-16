@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+  <TerrainZoneSelect.TerrainStockpileZoneExpandResource>Stockpile zone by terrain</TerrainZoneSelect.TerrainStockpileZoneExpandResource>
+  <TerrainZoneSelect.TerrainStockpileZoneExpandResourceDesc>Create a stockpile, using selected terrain, where your colonists will store resources.\nThis tool can also expand any existing stockpile.</TerrainZoneSelect.TerrainStockpileZoneExpandResourceDesc>
+
+  <TerrainZoneSelect.TerrainStockpileZoneExpandDumping>Dumping stockpile zone by terrain</TerrainZoneSelect.TerrainStockpileZoneExpandDumping>
+  <TerrainZoneSelect.TerrainStockpileZoneExpandDumpingDesc>Create a stockpile, using selected terrain, where your colonists will store junk.\nThis tool can also expand any existing stockpile.</TerrainZoneSelect.TerrainStockpileZoneExpandDumpingDesc>
+
+  <TerrainZoneSelect.TerrainGrowZone>Growing zone by terrain</TerrainZoneSelect.TerrainGrowZone>
+  <TerrainZoneSelect.TerrainGrowZoneDesc>Create a zone, using selected terrain, where your colonists will try to grow a certain kind of plant.</TerrainZoneSelect.TerrainGrowZoneDesc>
+
+  <TerrainZoneSelect.TerrainShrinkZone>Shrink zone by terrain</TerrainZoneSelect.TerrainShrinkZone>
+  <TerrainZoneSelect.TerrainShrinkZoneDesc>Remove zones using selected terrain, like stockpile zones or growing zones.</TerrainZoneSelect.TerrainShrinkZoneDesc>
+</LanguageData>

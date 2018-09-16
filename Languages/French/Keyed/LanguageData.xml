@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+  <!-- EN: Stockpile zone by terrain -->
+  <TerrainZoneSelect.TerrainStockpileZoneExpandResource>Zone de stockage par terrain</TerrainZoneSelect.TerrainStockpileZoneExpandResource>
+  <!-- EN: Create a stockpile, using selected terrain, where your colonists will store resources.\nThis tool can also expand any existing stockpile. -->
+  <TerrainZoneSelect.TerrainStockpileZoneExpandResourceDesc>Créez un stock, en utilisant le terrain sélectionné, où vos colons stockeront des ressources.\nCet outil peut également étendre toute réserve existante.</TerrainZoneSelect.TerrainStockpileZoneExpandResourceDesc>
+
+  <!-- EN: Dumping stockpile zone by terrain -->
+  <TerrainZoneSelect.TerrainStockpileZoneExpandDumping>Dumping zone de stockage par terrain</TerrainZoneSelect.TerrainStockpileZoneExpandDumping>
+  <!-- EN: Create a stockpile, using selected terrain, where your colonists will store junk.\nThis tool can also expand any existing stockpile. -->
+  <TerrainZoneSelect.TerrainStockpileZoneExpandDumpingDesc>Créez un stock, en utilisant le terrain sélectionné, où vos colons stockeront les ordures.\nCet outil peut également étendre toute réserve existante.</TerrainZoneSelect.TerrainStockpileZoneExpandDumpingDesc>
+
+  <!-- EN: Growing zone by terrain -->
+  <TerrainZoneSelect.TerrainGrowZone>Zone de croissance par terrain</TerrainZoneSelect.TerrainGrowZone>
+  <!-- EN: Create a zone, using selected terrain, where your colonists will try to grow a certain kind of plant. -->
+  <TerrainZoneSelect.TerrainGrowZoneDesc>Créez une zone, en utilisant un terrain sélectionné, où vos colons tenteront de faire pousser un certain type de plante.</TerrainZoneSelect.TerrainGrowZoneDesc>
+
+  <!-- EN: Shrink zone by terrain -->
+  <TerrainZoneSelect.TerrainShrinkZone>Zone de rétraction par terrain</TerrainZoneSelect.TerrainShrinkZone>
+  <!-- EN: Remove zones using selected terrain, like stockpile zones or growing zones. -->
+  <TerrainZoneSelect.TerrainShrinkZoneDesc>Supprimez les zones en utilisant le terrain sélectionné, comme les zones de stockage ou les zones de croissance.</TerrainZoneSelect.TerrainShrinkZoneDesc>
+</LanguageData>

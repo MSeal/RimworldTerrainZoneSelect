@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+  <!-- EN: Stockpile zone by terrain -->
+  <TerrainZoneSelect.TerrainStockpileZoneExpandResource>Zona de reserva por terreno</TerrainZoneSelect.TerrainStockpileZoneExpandResource>
+  <!-- EN: Create a stockpile, using selected terrain, where your colonists will store resources.\nThis tool can also expand any existing stockpile. -->
+  <TerrainZoneSelect.TerrainStockpileZoneExpandResourceDesc>Crea una pila, usando el terreno seleccionado, donde tus colonos almacenarán recursos.\nEsta herramienta también puede expandir cualquier arsenal existente.</TerrainZoneSelect.TerrainStockpileZoneExpandResourceDesc>
+
+  <!-- EN: Dumping stockpile zone by terrain -->
+  <TerrainZoneSelect.TerrainStockpileZoneExpandDumping>Volcado de zona de almacenamiento por terreno</TerrainZoneSelect.TerrainStockpileZoneExpandDumping>
+  <!-- EN: Create a stockpile, using selected terrain, where your colonists will store junk.\nThis tool can also expand any existing stockpile. -->
+  <TerrainZoneSelect.TerrainStockpileZoneExpandDumpingDesc>Crea una pila, usando el terreno seleccionado, donde tus colonos almacenarán basura.\nEsta herramienta también puede expandir cualquier arsenal existente.</TerrainZoneSelect.TerrainStockpileZoneExpandDumpingDesc>
+
+  <!-- EN: Growing zone by terrain -->
+  <TerrainZoneSelect.TerrainGrowZone>Zona de crecimiento por terreno</TerrainZoneSelect.TerrainGrowZone>
+  <!-- EN: Create a zone, using selected terrain, where your colonists will try to grow a certain kind of plant. -->
+  <TerrainZoneSelect.TerrainGrowZoneDesc>Crea una zona, usando el terreno seleccionado, donde tus colonos intentarán cultivar cierto tipo de planta.</TerrainZoneSelect.TerrainGrowZoneDesc>
+
+  <!-- EN: Shrink zone by terrain -->
+  <TerrainZoneSelect.TerrainShrinkZone>Reducir zona por terreno</TerrainZoneSelect.TerrainShrinkZone>
+  <!-- EN: Remove zones using selected terrain, like stockpile zones or growing zones. -->
+  <TerrainZoneSelect.TerrainShrinkZoneDesc>Elimine zonas utilizando el terreno seleccionado, como zonas de acumulación o zonas de crecimiento.</TerrainZoneSelect.TerrainShrinkZoneDesc>
+</LanguageData>

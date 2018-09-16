@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+  <!-- EN: Stockpile zone by terrain -->
+  <TerrainZoneSelect.TerrainStockpileZoneExpandResource>Zona de estoque por terreno</TerrainZoneSelect.TerrainStockpileZoneExpandResource>
+  <!-- EN: Create a stockpile, using selected terrain, where your colonists will store resources.\nThis tool can also expand any existing stockpile. -->
+  <TerrainZoneSelect.TerrainStockpileZoneExpandResourceDesc>Crie um estoque, usando o terreno selecionado, onde seus colonos armazenarão recursos.\nEssa ferramenta também pode expandir qualquer estoque existente.</TerrainZoneSelect.TerrainStockpileZoneExpandResourceDesc>
+
+  <!-- EN: Dumping stockpile zone by terrain -->
+  <TerrainZoneSelect.TerrainStockpileZoneExpandDumping>Dumping de zona de estoque por terreno</TerrainZoneSelect.TerrainStockpileZoneExpandDumping>
+  <!-- EN: Create a stockpile, using selected terrain, where your colonists will store junk.\nThis tool can also expand any existing stockpile. -->
+  <TerrainZoneSelect.TerrainStockpileZoneExpandDumpingDesc>Crie um estoque, usando terreno selecionado, onde seus colonos armazenarão lixo.\nEssa ferramenta também pode expandir qualquer estoque existente.</TerrainZoneSelect.TerrainStockpileZoneExpandDumpingDesc>
+
+  <!-- EN: Growing zone by terrain -->
+  <TerrainZoneSelect.TerrainGrowZone>Crescente zona por terreno</TerrainZoneSelect.TerrainGrowZone>
+  <!-- EN: Create a zone, using selected terrain, where your colonists will try to grow a certain kind of plant. -->
+  <TerrainZoneSelect.TerrainGrowZoneDesc>Crie uma zona, usando terreno selecionado, onde seus colonos tentarão cultivar um certo tipo de planta.</TerrainZoneSelect.TerrainGrowZoneDesc>
+
+  <!-- EN: Shrink zone by terrain -->
+  <TerrainZoneSelect.TerrainShrinkZone>Encolher zona por terreno</TerrainZoneSelect.TerrainShrinkZone>
+  <!-- EN: Remove zones using selected terrain, like stockpile zones or growing zones. -->
+  <TerrainZoneSelect.TerrainShrinkZoneDesc>Remova zonas usando terreno selecionado, como zonas de estoque ou zonas de crescimento.</TerrainZoneSelect.TerrainShrinkZoneDesc>
+</LanguageData>

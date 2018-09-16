@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+  <!-- EN: Stockpile zone by terrain -->
+  <TerrainZoneSelect.TerrainStockpileZoneExpandResource>地形別の備蓄ゾーン</TerrainZoneSelect.TerrainStockpileZoneExpandResource>
+  <!-- EN: Create a stockpile, using selected terrain, where your colonists will store resources.\nThis tool can also expand any existing stockpile. -->
+  <TerrainZoneSelect.TerrainStockpileZoneExpandResourceDesc>選択された地形を使用して、植民地の人々が資源を保管する場所に備蓄を作ります。\nこのツールは既存の備蓄を拡張することもできます。</TerrainZoneSelect.TerrainStockpileZoneExpandResourceDesc>
+
+  <!-- EN: Dumping stockpile zone by terrain -->
+  <TerrainZoneSelect.TerrainStockpileZoneExpandDumping>地形別に貯水域をダンプする</TerrainZoneSelect.TerrainStockpileZoneExpandDumping>
+  <!-- EN: Create a stockpile, using selected terrain, where your colonists will store junk.\nThis tool can also expand any existing stockpile. -->
+  <TerrainZoneSelect.TerrainStockpileZoneExpandDumpingDesc>選択された地形を使用して、植民地が迷惑メールを保存する場所に備蓄を作成します。\nこのツールは既存の備蓄を拡張することもできます。</TerrainZoneSelect.TerrainStockpileZoneExpandDumpingDesc>
+
+  <!-- EN: Growing zone by terrain -->
+  <TerrainZoneSelect.TerrainGrowZone>地形による育成ゾーン</TerrainZoneSelect.TerrainGrowZone>
+  <!-- EN: Create a zone, using selected terrain, where your colonists will try to grow a certain kind of plant. -->
+  <TerrainZoneSelect.TerrainGrowZoneDesc>選択された地形を使用してゾーンを作成し、植民者が特定の種類の植物を育てようとします。</TerrainZoneSelect.TerrainGrowZoneDesc>
+
+  <!-- EN: Shrink zone by terrain -->
+  <TerrainZoneSelect.TerrainShrinkZone>地形別ゾーン縮小</TerrainZoneSelect.TerrainShrinkZone>
+  <!-- EN: Remove zones using selected terrain, like stockpile zones or growing zones. -->
+  <TerrainZoneSelect.TerrainShrinkZoneDesc>選択した地形（備蓄区域や育成区域など）を使用して区域を削除します。</TerrainZoneSelect.TerrainShrinkZoneDesc>
+</LanguageData>

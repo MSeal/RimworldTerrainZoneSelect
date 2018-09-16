@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>[B19] Terrain Zone Selections</name>
+    <author>Pyrce</author>
+    <url>https://github.com/MSeal/RimworldTerrainZoneSelect</url>
+    <targetVersion>0.19.2009</targetVersion>
+    <description>[h1][B19] Terrain Zone Selections[/h1]
+
+An interface-only mod which adds zone buttons for stockpiles and growing zones. These new buttons create a zone, or add to one, based on the terrain clicked. Want to just sow that Fertile Soil? Click on the new grow zone icon and click once.
+
+Additionally there's a shrink zone option using terrain types as well. Selected a few tiles you don't want in a zone? No need to squint at the screen to find the boundaries, just select the Shrink by terrain tile and click once.
+
+The fact the base game doesn't have this has bugged me for a long time, hopefully this helps others who struggle with soil and tile selections at times.
+
+[h1]Required Mods[/h1]
+None!
+
+[h1]Compatibility[/h1]
+Should be compatible with every other mod.
+
+[h1]Current (Sometimes Crude) Translations[/h1]
+- English
+- French
+- German
+- Chinese (Simplified)
+- Korean
+- Japanese
+- Polish
+- Portuguese
+- Russian
+- Spanish
+
+Link me translation fixes/additions and I'll add them in.
+    </description>
+</ModMetaData>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+  <!-- EN: Stockpile zone by terrain -->
+  <TerrainZoneSelect.TerrainStockpileZoneExpandResource>Stockpile-Zone nach Gelände</TerrainZoneSelect.TerrainStockpileZoneExpandResource>
+  <!-- EN: Create a stockpile, using selected terrain, where your colonists will store resources.\nThis tool can also expand any existing stockpile. -->
+  <TerrainZoneSelect.TerrainStockpileZoneExpandResourceDesc>Erstellen Sie einen Vorrat mit ausgewähltem Terrain, in dem Ihre Kolonisten Ressourcen speichern.\nDieses Werkzeug kann auch vorhandene Bestände erweitern.</TerrainZoneSelect.TerrainStockpileZoneExpandResourceDesc>
+
+  <!-- EN: Dumping stockpile zone by terrain -->
+  <TerrainZoneSelect.TerrainStockpileZoneExpandDumping>Deponieren der Haldenzone nach Gelände</TerrainZoneSelect.TerrainStockpileZoneExpandDumping>
+  <!-- EN: Create a stockpile, using selected terrain, where your colonists will store junk.\nThis tool can also expand any existing stockpile. -->
+  <TerrainZoneSelect.TerrainStockpileZoneExpandDumpingDesc>Erstelle einen Vorrat, indem du ausgewähltes Terrain verwendest, wo deine Kolonisten Müll speichern.\nDieses Werkzeug kann auch vorhandene Bestände erweitern.</TerrainZoneSelect.TerrainStockpileZoneExpandDumpingDesc>
+
+  <!-- EN: Growing zone by terrain -->
+  <TerrainZoneSelect.TerrainGrowZone>Wachsende Zone nach Gelände</TerrainZoneSelect.TerrainGrowZone>
+  <!-- EN: Create a zone, using selected terrain, where your colonists will try to grow a certain kind of plant. -->
+  <TerrainZoneSelect.TerrainGrowZoneDesc>Erstelle eine Zone mit ausgewähltem Gelände, wo deine Kolonisten versuchen werden, eine bestimmte Pflanzenart anzubauen.</TerrainZoneSelect.TerrainGrowZoneDesc>
+
+  <!-- EN: Shrink zone by terrain -->
+  <TerrainZoneSelect.TerrainShrinkZone>Schrumpfzone nach Gelände</TerrainZoneSelect.TerrainShrinkZone>
+  <!-- EN: Remove zones using selected terrain, like stockpile zones or growing zones. -->
+  <TerrainZoneSelect.TerrainShrinkZoneDesc>Entfernen Sie Zonen mit ausgewähltem Gelände, z. B. Halden- oder Anbauflächen.</TerrainZoneSelect.TerrainShrinkZoneDesc>
+</LanguageData>
