@@ -4,7 +4,7 @@ using System.Linq;
 using RimWorld;
 using Verse;
 using UnityEngine;
-using Harmony;
+using HarmonyLib;
 
 namespace TerrainZoneSelect
 {

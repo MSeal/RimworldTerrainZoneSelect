@@ -4,7 +4,7 @@ using System.Linq;
 using RimWorld;
 using Verse;
 using UnityEngine;
-using Harmony;
+using HarmonyLib;
 
 namespace TerrainZoneSelect {
     public class Designator_GrowZoneSelect : Designator_ZoneAdd_Growing {

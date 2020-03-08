@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using RimWorld;
 using Verse;
-using Harmony;
+using HarmonyLib;
 using System.Reflection;
 
 namespace TerrainZoneSelect
@@ -22,7 +22,7 @@ namespace TerrainZoneSelect
     public static class TerrainZoneSelectLoader {
         static TerrainZoneSelectLoader()
         {
-            var harmony = HarmonyInstance.Create("net.mseal.rimworld.mod.terrainzoneselect");
+            var harmony = new Harmony("net.mseal.rimworld.mod.terrainzoneselect");
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
     }
@@ -36,7 +36,12 @@ namespace TerrainZoneSelect
             yield return new IntVec3(center.x, 0, center.z - 1);
         }
 
-        public static void AddAdjacentFringeCellsSameType(Map map, IntVec3 center, HashSet<IntVec3> fringe, HashSet<IntVec3> explored, CellRect bounds, Func<IntVec3, bool> allowedCell = null)
+        public static bool HasDoor(Map map, IntVec3 loc, bool debug = false) {
+            Thing t = map.thingGrid.ThingAt(loc, ThingCategory.Building);
+            return t != null && t.GetType().IsAssignableFrom(typeof(Building_Door));
+        }
+
+        public static void AddAdjacentFringeCellsSameType(Map map, IntVec3 center, HashSet<IntVec3> fringe, HashSet<IntVec3> explored, CellRect bounds, Func<IntVec3, bool> allowedCell = null, bool skipDoors = true)
         {
             foreach (IntVec3 cell in DirectlyConnectedCells(center))
             {
@@ -44,26 +49,30 @@ namespace TerrainZoneSelect
                     bounds.Contains(cell) &&
                     cell.InBounds(map) &&
                     map.terrainGrid.TerrainAt(cell) == map.terrainGrid.TerrainAt(center) &&
+                    (!skipDoors || !HasDoor(map, cell)) &&
                     (allowedCell == null || allowedCell(cell)))
                 {
-                    Log.Message("cell: " + map.terrainGrid.TerrainAt(cell).ToString() + ", center: " + map.terrainGrid.TerrainAt(center));
                     fringe.Add(cell);
                 }
             }
         }
 
-        public static List<IntVec3> TilesSharingTerrainType(Map map, IntVec3 loc, int radius, Func<IntVec3, bool> allowedCell = null)
+        public static List<IntVec3> TilesSharingTerrainType(Map map, IntVec3 loc, int radius, Func<IntVec3, bool> allowedCell = null, bool? skipDoors = null)
         {
             HashSet<IntVec3> explored = new HashSet<IntVec3>();
             HashSet<IntVec3> fringe = new HashSet<IntVec3>();
             CellRect bounds = CellRect.CenteredOn(loc, radius);
+            if (skipDoors == null)
+            {
+                skipDoors = !HasDoor(map, loc, true);
+            }
 
             fringe.Add(loc);
             while (fringe.Any())
             {
                 IntVec3 nextCell = fringe.Pop();
                 explored.Add(nextCell);
-                AddAdjacentFringeCellsSameType(map, nextCell, fringe, explored, bounds, allowedCell);
+                AddAdjacentFringeCellsSameType(map, nextCell, fringe, explored, bounds, allowedCell, (bool)skipDoors);
             }
 
             // Force the clicked cell to be first in the list (it's usually used to select zones)

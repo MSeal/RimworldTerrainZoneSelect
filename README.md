@@ -1,11 +1,11 @@
-﻿# RimworldTerrainZoneSelect
+# RimworldTerrainZoneSelect
 Adds the ability to select zones based on terrain types.
 
-![Version](https://img.shields.io/badge/Rimworld-1.0-brightgreen.svg) on [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1542393171)
+![Version](https://img.shields.io/badge/Rimworld-1.1-brightgreen.svg) on [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1542393171)
 
 ![Alt text](About/Preview.png?raw=true "Terrain Zone Selection")
 
-[1.0] An interface-only mod which adds zone buttons for stockpiles and growing zones. These new buttons create a zone, or add to one, based on the terrain clicked. Want to just sow that Fertile Soil? Click on the new grow zone icon and click once.
+[1.1] An interface-only mod which adds zone buttons for stockpiles and growing zones. These new buttons create a zone, or add to one, based on the terrain clicked. Want to just sow that Fertile Soil? Click on the new grow zone icon and click once.
 
 Additionally there's a shrink zone option using terrain types as well. Selected a few tiles you don't want in a zone? No need to squint at the screen to find the boundaries, just select the Shrink by terrain tile and click once.
 
