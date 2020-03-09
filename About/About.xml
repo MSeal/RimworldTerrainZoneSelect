@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>[1.1] Terrain Zone Selections</name>
+    <name>Terrain Zone Selections</name>
     <author>Pyrce</author>
     <url>https://github.com/MSeal/RimworldTerrainZoneSelect</url>
     <supportedVersions>
+      <li>1.0</li>
       <li>1.1</li>
     </supportedVersions>
+    <modDependencies>
+      <li>
+        <displayName>Harmony</displayName>
+        <packageId>brrainz.harmony</packageId>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      </li>
+    </modDependencies>
     <packageId>pyrce.terrain.zone.select</packageId>
-    <description>[h1][1.1] Terrain Zone Selections[/h1]
+    <description>[h1]Terrain Zone Selections[/h1]
 
 An interface-only mod which adds zone buttons for stockpiles and growing zones. These new buttons create a zone, or add to one, based on the terrain clicked. Want to just sow that Fertile Soil? Click on the new grow zone icon and click once.
 
