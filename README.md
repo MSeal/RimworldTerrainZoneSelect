@@ -1,7 +1,7 @@
 [1;7B# RimworldTerrainZoneSelect
 Adds the ability to select zones based on terrain types.
 
-![Version](https://img.shields.io/badge/Rimworld-1.1-brightgreen.svg) on [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2016758730)
+![Version](https://img.shields.io/badge/Rimworld-1.2-brightgreen.svg) on [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2016758730)
 
 ![Alt text](About/Preview.png?raw=true "Terrain Zone Selection")
 
